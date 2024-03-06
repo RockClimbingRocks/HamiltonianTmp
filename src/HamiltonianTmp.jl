@@ -8,6 +8,9 @@ include("CreateHamiltonian/FermionAlgebra.jl");
 
 export c⁺c⁺c⁻c⁻, c⁺c⁻, DefineH;
 
+function hello()
+    return "hello world"
+end
 
 
 function c⁺c⁺c⁻c⁻(model:: ParamsH, isSparse:: Bool = true)
